@@ -4,7 +4,8 @@
   "description": "Node.js implementation of the bark-server",
   "main": "index.js",
   "scripts": {
-    "serve": "node app.js"
+    "serve": "node app.js",
+    "start": "node app.js"
   },
   "author": "dss886",
   "license": "Apache License 2.0",
@@ -14,5 +15,8 @@
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "sqlite3": "^5.0.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
